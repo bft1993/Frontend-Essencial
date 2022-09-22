@@ -1,0 +1,79 @@
+<!-- Indica ao navegador que estamos usando a versão do HTML mais atual-->
+<!DOCTYPE html>
+
+<!-- Para iniciar e finalizar uma tag devemos usar a tag HTML(É o que delimita o escopo de um HTML)-->
+<!-- Essa tag usamos para iniciar o nosso código:-->
+<html>
+
+<!-- Dois elementos essenciais em toda tag: head e body-->
+<!-- Usamos a tag head para informações de configuração (não são visíveis ao usuário).
+     Ex: config. do titulo da aba; linkar arquivos externos.-->
+<head>
+
+    <!-- A tag title é visível ao usuário. Ela aparece na aba da página do site.-->
+    <title>Meu primeiro HTML</title>
+
+<!-- Fechamento da tag head-->
+</head>
+
+<!-- É aonde está o conteúdo do site.-->
+<body>
+
+    <!-- A tag h1 à tag h6 são visíveis ao usuário. A h1 aparece como título do texto na página do site.-->
+    <!-- A tag h1 é mais importante e a importância dessas tags são decrescentes, ou seja, a h6 é menos importante.-->
+    <!-- Seguem essa hierarquia de importância conforme rankeamento do google.-->
+    <!-- Elemento de bloco cria uma "caixinha" envolvendo todo o bloco da mensagem inserida.-->
+    <h1>Título em H1</h1>
+    <h2>Título em H2</h2>
+    <h3>Título em H3</h3>
+    <h4>Título em H4</h4>
+    <h5>Título em H5</h5>
+    <h6>Título em H6</h6>
+
+<!-- A tag hr faz 1 linha/barra horizontal no texto.-->
+<!-- É uma tag autocontida, precisa fechar de primeira pois não escrevemos nada dentro desta tag, ela serve somente para pular a linha mesmo.-->
+<!-- Como boa prática devemos sempre usar a / para fechá-la-->
+<hr/>
+
+<!-- Tag para parágrafos:-->
+<!-- A tag a é um elemento de linha e por isso podemos linkar uma palavra no meu do nosso texto.-->
+<p>Meu <a href="#">primeiro</a> parágrafo</p>
+
+<!-- Tag de âncora, serve para links.-->
+<!-- O href é um atributo que serve para direcionar o usuário quando ele clicar no link.-->
+<!-- Ou seja, se quisermos que nosso link seja clicável o envolvemos com a tag a -->
+<!-- Elemento de linha preenche somente a linha mencionada na tag.-->
+<!-- Usando a tag a dessa forma, clicando no link automaticamente fecha a nossa aba e substitui com o novo endereço.-->
+<a href="https://www.google.com">GOOGLE</a>
+<!-- Usando a tag a com o acrescimo do target blank, clicando no link o usuário entra em uma nova aba sem substituir a tela inicial.-->
+<a href="https://www.google.com" target="_blank">GOOGLE</a>
+<!-- Teste usando o link de uma imagem do google. -->
+<a href="https://i.scdn.co/image/ab67706f00000002e652f370349fc9ee540b5e78" target="_blank">U2</a>
+
+<!-- A tag br faz pular 1 linha. Também é uma tag autocontida e precisa ser fechada corretamente, seguindo as boas práticas.-->
+<br />
+<a href="contatos.html">CONTATOS</a>
+
+<br />
+<br />
+
+<!-- Tag para imagens:-->
+<!-- src é o link daquela imagem e o alt serve para descrever aquela imagem, muito importante para a acessibilidade, por exemplo.-->
+<!-- Colocar o link de uma imagem dessa forma não é visto como boa prática, pois essa imagem pertence a alguém e se ela sair do ar ficamos prejudicados.-->
+<!-- O width e o height controlam o tamanho da imagem.-->
+<!-- O style="float:  " faz o elemento flutuar, o parágrafo se organiza como determinamos, por exemplo ao redor da imagem.-->
+<img style="float: left" src="https://www.sosdigital.com.br/wp-content/uploads/2020/07/html5-1.jpg" alt="Logo do HTML 5" width="100px" height="100px">
+
+<!-- Puxamos esse parágrafo da Extensão Mussum Ipsum e escolhemos a quantidade de parágrafos.-->
+<!-- Parágrafo é um elemento de bloco, mas conseguimos organizá-lo ao lado de uma imagem usando o elemento float descrito acima. -->
+<p>Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Atirei o pau no gatis, per gatis num morreus. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Si num tem leite então bota uma pinga aí cumpadi!
+Diuretics paradis num copo é motivis de denguis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Casamentiss faiz malandris se pirulitá.
+A ordem dos tratores não altera o pão duris. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Per aumento de cachacis, eu reclamis. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis.</p>
+
+<!-- Puxamos o link da pasta img, assim usamos de boa prática.-->
+<img src="img/logos-frontend.jpg" alt="Logo do HTML, CSS e Javascript"width="100px" height="100px">
+
+<!-- Fechamento da tag body-->
+</body>
+<!-- Essa tag usamos para finalizar o nosso código:-->
+</html>
